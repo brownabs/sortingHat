@@ -1,0 +1,61 @@
+#sortButtonForLandingPage {
+  color: white;
+  margin-top: 20px
+}
+
+ body {
+  background-image: url("https://i.kinja-img.com/gawker-media/image/upload/t_original/zjailhncxg4yutmlu3up.jpg");
+   font-family: 'Tangerine', cursive;
+ }
+
+ #sortButton {
+  width: 200px;
+  font-size: 2.5rem;
+  background-color: rgb(67, 63, 102) !important;
+  color: white;
+  border: 2px black solid;
+  border-radius: 50px
+
+ }
+
+ #sortingForm {
+display: flex;
+justify-content: flex-start;
+margin-top: 200px;
+margin-left: 5px;
+} 
+
+.sortingFormInformation {
+  font-size: 25px;
+  margin-top: 3px;
+  width: 200px;
+  background-color: rgb(67, 63, 102) !important;
+  color: white;
+  border: 2px black solid;
+  border-radius: 30px
+}
+
+form h1{
+  color: white;
+}
+
+#student {
+  color: white
+}
+
+#students { 
+background-color: rgb(67, 63, 102);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-content: center;
+margin-top: 50px;
+}
+
+.studentCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem
+}
