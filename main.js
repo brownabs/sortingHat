@@ -76,11 +76,11 @@ const sortButton = () => {
 };
 
 const formClicked = () => {
-  document.getElementById("sortStudent").addEventListener("click", studentName);
-  document
-    .getElementById("sortStudent")
-    .addEventListener("click", buildStudentsList);
-};
+  document.getElementById("sortStudent").addEventListener("click", () => {
+    studentName(); 
+    buildStudentsList();
+  }) 
+}
 
 const expelButtonClicked = () => {
   document.getElementById("students").addEventListener("click", expelStudent);
@@ -141,6 +141,7 @@ const studentName = () => {
   };
 
   students.push(student);
+
 };
 
 const studentHouse = () => {
